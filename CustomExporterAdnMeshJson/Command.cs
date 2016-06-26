@@ -65,7 +65,7 @@ namespace CustomExporterAdnMeshJson
         // Meshes of the faces will still be received by 
         // the context.
 
-        exporter.IncludeFaces = false;
+        //exporter.IncludeFaces = false; // removed in Revit 2017
 
         exporter.Export( view );
       }

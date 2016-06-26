@@ -127,11 +127,12 @@ namespace CustomExporterAdnMeshJson
       return false;
     }
 
-    public void OnDaylightPortal(
-      DaylightPortalNode node )
-    {
-      throw new NotImplementedException();
-    }
+    // Removed in Revit 2017:
+    //public void OnDaylightPortal(
+    //  DaylightPortalNode node )
+    //{
+    //  throw new NotImplementedException();
+    //}
 
     public RenderNodeAction OnElementBegin(
       ElementId elementId )

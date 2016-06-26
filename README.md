@@ -1,6 +1,6 @@
 # CustomExporterAdnMeshJson
 
-C# .NET Revit API CustomExporter geometry exporter to custom ADN mesh JSON format.
+C# .NET Revit API add-in geometry CustomExporter to ADN mesh JSON format.
 
 For more information, please refer to [The Building Coder](http://thebuildingcoder.typepad.com) discussion on
 the [ADN Mesh Data Custom Exporter to JSON](http://thebuildingcoder.typepad.com/blog/2013/07/adn-mesh-data-custom-exporter-to-json.html).
