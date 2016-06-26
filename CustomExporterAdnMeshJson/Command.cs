@@ -67,6 +67,8 @@ namespace CustomExporterAdnMeshJson
 
         //exporter.IncludeFaces = false; // removed in Revit 2017
 
+        exporter.IncludeGeometricObjects = false; // Revit 2017
+
         exporter.Export( view );
       }
 
