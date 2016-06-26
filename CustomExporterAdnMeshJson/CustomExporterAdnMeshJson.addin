@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Export ADN Mesh Data to JSON</Text>
+    <Description>Export ADN Mesh Data to JSON</Description>
+    <Assembly>CustomExporterAdnMeshJson.dll</Assembly>
+    <FullClassName>CustomExporterAdnMeshJson.Command</FullClassName>
+    <ClientId>92037c5b-5799-4367-818c-bbc22ffb4097</ClientId>
+    <VendorId>TBC_</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+</RevitAddIns>
