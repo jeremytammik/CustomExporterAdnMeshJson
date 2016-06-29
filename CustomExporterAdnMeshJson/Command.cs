@@ -69,7 +69,14 @@ namespace CustomExporterAdnMeshJson
 
         exporter.IncludeGeometricObjects = false; // Revit 2017
 
-        exporter.Export( view );
+        try
+        {
+          exporter.Export( view );
+        }
+        catch( Autodesk.Revit.Exceptions.ExternalApplicationException ex )
+        {
+          Debug.Print( "ExternalApplicationException " + ex.Message );
+        }
       }
 
       // Save ADN mesh data in JSON format
