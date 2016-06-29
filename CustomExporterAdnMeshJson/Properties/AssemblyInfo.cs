@@ -38,6 +38,7 @@ using System.Runtime.InteropServices;
 // 2013-07-11 2014.0.0.0 initial version for Revit 2014
 // 2016-06-26 2017.0.0.0 flat migrtion to Revit 2017
 // 2016-06-26 2017.0.0.1 set IncludeGeometricObjects and successful test
+// removed throw NotImplementedException in OnLinkBegin and OnLinkEnd
 //
-[assembly: AssemblyVersion( "2017.0.0.1" )]
-[assembly: AssemblyFileVersion( "2017.0.0.1" )]
+[assembly: AssemblyVersion( "2017.0.0.2" )]
+[assembly: AssemblyFileVersion( "2017.0.0.2" )]

@@ -171,11 +171,14 @@ namespace CustomExporterAdnMeshJson
 
     public RenderNodeAction OnFaceBegin( FaceNode node )
     {
+      Debug.Print( "OnFaceBegin not implemented." );
       throw new NotImplementedException();
+      return RenderNodeAction.Skip;
     }
 
     public void OnFaceEnd( FaceNode node )
     {
+      Debug.Print( "OnFaceEnd not implemented." );
       throw new NotImplementedException();
     }
 
@@ -208,6 +211,7 @@ namespace CustomExporterAdnMeshJson
 
     public void OnLight( LightNode node )
     {
+      Debug.Print( "OnLight not implemented." );
       throw new NotImplementedException();
     }
 
@@ -216,14 +220,12 @@ namespace CustomExporterAdnMeshJson
       _transformationStack.Push( CurrentTransform
         .Multiply( node.GetTransform() ) );
 
-      throw new NotImplementedException();
+      return RenderNodeAction.Proceed;
     }
 
     public void OnLinkEnd( LinkNode node )
     {
       _transformationStack.Pop();
-
-      throw new NotImplementedException();
     }
 
     public void OnMaterial( MaterialNode node )
@@ -291,6 +293,7 @@ namespace CustomExporterAdnMeshJson
 
     public void OnRPC( RPCNode node )
     {
+      Debug.Print( "OnRPC not implemented." );
       throw new NotImplementedException();
     }
 
